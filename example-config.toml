@@ -1,0 +1,15 @@
+email = "myemail@university.edu"
+password = "hunter2"
+# copy and paste from "copy webhook URL" in discord
+webhook-url = "https://discord.com/api/webhooks/.../..."
+# course id can be found by navigating to the class on piazza and inspecting the
+# link, for example https://piazza.com/class/abcdefg123/post/100 has a course id
+# of abcdefg123
+course-id =  "abcdefg123"
+notify-message = "discord mention"
+# how often to check for new posts
+check-interval-minutes = 10
+# how old a post has to be before it will ping
+notify-min-age-minutes = 30
+# will stop pinging for a post if it is over this age
+notify-max-age-minutes = 60
